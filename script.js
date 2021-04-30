@@ -4,14 +4,14 @@ document.getElementById('change-size').addEventListener('click', changeSize)
 
 document.getElementById('change-color').addEventListener('click', changeColor)
 
-function changeFont (){
+function changeFont () {
   document.getElementById('paragraph').style.fontFamily = 'Arial'
 }
 
-function changeSize (){
+function changeSize () {
   document.getElementById('paragraph').style.fontSize = 'X-large'
 }
 
-function changeColor (){
+function changeColor () {
   document.getElementById('paragraph').style.color = 'red'
 }
